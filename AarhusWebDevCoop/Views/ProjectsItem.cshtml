@@ -1,0 +1,23 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.ProjectsItem>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "Master.cshtml";
+}
+
+<div id="main-container">
+    <div id="main" class="wrapper clearfix articles">
+        <section>
+            <h2>@Umbraco.Field("projectTitle")</h2>
+        <p><em> @Umbraco.Field("projectBrief")</em></p>
+		<p><span class="desc">Start date: </span>@Umbraco.Field("startDate")</p>
+		<p><span class="desc">Team: </span>@Umbraco.Field("projectTeam")</p>
+		
+		@if (Model.Content.HasValue("projectStatus"))
+{
+  		  <p><span class="desc">Status: </span>@Model.Content.GetPropertyValue("projectStatus")</p>
+}
+
+		<p>@Umbraco.Field("projectMainContent")</p>
+        </section>  
+    </div> <!-- #main -->`
+</div> <!-- #main-container -->

@@ -1,0 +1,11 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.Members>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "Master.cshtml";
+}
+
+<div class="container-fluid container-narrow members">
+	 <div id="main" class="wrapper clearfix">
+		@Umbraco.RenderMacro("members")
+	</div>
+</div>

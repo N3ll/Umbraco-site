@@ -1,0 +1,64 @@
+﻿
+@model AarhusWebDevCoop.Models.Message
+@{
+    Layout = null;
+}
+@if (TempData["success"] == null)
+{
+
+    using (Html.BeginUmbracoForm("HandleFormSubmit", "MessageSurface", new Object { }, new { @class = "form-horizontal form" }))
+    {
+        <div class="form-group">
+            <label class="col-sm-2 control-label">@Html.LabelFor(m => m.Title, new { @class = "col-sm=2 control-label" })</label>
+            <div class="col-sm-8">
+                @Html.TextBoxFor(m => m.Title, new { @class = "form-control", placeholder = "Title" })
+           
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">
+                @Html.LabelFor(m => m.Text, new { @class = "col-sm=2 control-label" })
+            </label>
+            <div class="col-sm-8">
+                @Html.TextAreaFor(m => m.Text, new { @class = "form-control", placeholder = "Your message" })
+                @Html.ValidationMessageFor(m => m.Text)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-6">
+                <button id="contact-submit" type="submit" class="btn btn-primary input-medium pull-left">Post</button>
+            </div>
+        </div>
+    }
+}
+else
+{
+    using (Html.BeginUmbracoForm("HandleFormSubmit", "MessageSurface", new Object { }, new { @class = "form-horizontal" }))
+    {
+        <div class="form-group">
+            <label class="col-sm-2 control-label">@Html.LabelFor(m => m.Title, new { @class = "col-sm=2 control-label" })</label>
+            <div class="col-sm-6">
+                @Html.TextBoxFor(m => m.Title, new { @class = "form-control", placeholder = "Title" })
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">
+                @Html.LabelFor(m => m.Text, new { @class = "col-sm=2 control-label" })
+            </label>
+            <div class="col-sm-6">
+                @Html.TextAreaFor(m => m.Text, new { @class = "form-control", placeholder = "Your message" })
+                @Html.ValidationMessageFor(m => m.Text)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-6">
+                <button id="contact-submit" type="submit" class="btn btn-primary input-medium pull-left">Post</button>
+            </div>
+        </div>
+    }
+}

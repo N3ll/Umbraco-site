@@ -1,0 +1,22 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+
+	<ul>
+	@{var projects = Umbraco.Content(1078);
+	  var numberOfEntries = Model.MacroParameters["numberOfEntries"];
+	 foreach(var project in projects.Children().Where("projectStatus.Contains(\"Completed\")").Take(Convert.ToInt32(numberOfEntries)))
+	 {
+	 	  <div class="project">
+        <div class="project-title"><a href="@project.Url">@project.Name</a></div>
+			@if(project.GetProperty("ProjectBrief") != null){
+				
+				<div class="project-preview">@Umbraco.Truncate(@project.ProjectBrief,500) <a href="@project.Url">Read More..</a></div>
+			}
+    </div>
+    <hr/>
+	 }
+	 }
+	</ul>
+		
+		
+		
+

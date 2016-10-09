@@ -1,0 +1,63 @@
+﻿ 2016-09-26 09:01:14,341 [P8380/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.2 application starting on NELLYCHAKAR1489
+ 2016-09-26 09:01:14,412 [P8380/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-09-26 09:01:14,439 [P8380/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 27ms)
+ 2016-09-26 09:01:14,521 [P8380/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-09-26 09:01:15,187 [P8380/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 665ms)
+ 2016-09-26 09:01:15,402 [P8380/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-09-26 09:01:15,410 [P8380/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+ 2016-09-26 09:01:15,411 [P8380/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-09-26 09:01:15,413 [P8380/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 2ms)
+ 2016-09-26 09:01:15,460 [P8380/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-09-26 09:01:15,530 [P8380/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 70ms)
+ 2016-09-26 09:01:15,531 [P8380/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-09-26 09:01:15,553 [P8380/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 21ms)
+ 2016-09-26 09:01:15,958 [P8380/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-09-26 09:01:15,959 [P8380/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2016-09-26 09:01:15,959 [P8380/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-09-26 09:01:15,960 [P8380/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-09-26 09:01:18,010 [P8380/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-09-26 09:01:18,304 [P8380/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-09-26 09:01:18,307 [P8380/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-09-26 09:01:18,490 [P8380/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-09-26 09:01:19,069 [P8380/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-09-26 09:01:19,069 [P8380/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-09-26 09:01:19,106 [P8380/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4930ms)
+ 2016-09-26 09:01:27,403 [P8380/D2/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:56425/umbraco (UmbracoModule request)
+ 2016-09-26 09:01:28,258 [P8380/D2/T10] INFO  umbraco.content - Load Xml from file...
+ 2016-09-26 09:01:28,290 [P8380/D2/T10] INFO  umbraco.content - Loaded Xml from file.
+ 2016-09-26 09:01:28,675 [P8380/D2/T10] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-09-26 09:01:31,366 [P8380/D2/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-09-26 09:01:31,373 [P8380/D2/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 7ms)
+ 2016-09-26 09:01:56,743 [P8380/D2/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-09-26 09:01:56,746 [P8380/D2/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2016-09-26 09:01:57,052 [P8380/D2/T14] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username neli.chakarova@yahoo.com from IP address ::1
+ 2016-09-26 09:01:57,059 [P8380/D2/T14] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: neli.chakarova@yahoo.com logged in from IP address ::1
+ 2016-09-26 09:01:57,476 [P8380/D2/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-09-26 09:01:57,477 [P8380/D2/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2016-09-26 09:02:09,620 [P8380/D2/T14] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username neli.chakarova@yahoo.com from IP address ::1
+ 2016-09-26 09:02:09,620 [P8380/D2/T14] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: neli.chakarova@yahoo.com logged in from IP address ::1
+ 2016-09-26 09:02:10,449 [P8380/D2/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-09-26 09:02:10,452 [P8380/D2/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 3ms)
+ 2016-09-26 09:02:11,463 [P8380/D2/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-09-26 09:02:11,463 [P8380/D2/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-09-26 09:02:11,467 [P8380/D2/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-09-26 09:02:11,471 [P8380/D2/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 3ms)
+ 2016-09-26 09:02:28,440 [P8380/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-09-25 09:02:28
+ 2016-09-26 09:02:36,227 [P8380/D2/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-09-26 09:02:36,227 [P8380/D2/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-09-26 09:02:36,255 [P8380/D2/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2016-09-26 09:02:36,258 [P8380/D2/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 2ms)
+ 2016-09-26 09:23:47,784 [P8380/D2/T34] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username neli.chakarova@yahoo.com from IP address ::1
+ 2016-09-26 09:23:47,785 [P8380/D2/T34] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: neli.chakarova@yahoo.com logged in from IP address ::1
+ 2016-09-26 09:23:47,848 [P8380/D2/T34] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-09-26 09:23:47,849 [P8380/D2/T34] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-09-26 09:23:48,266 [P8380/D2/T34] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-09-26 09:23:48,267 [P8380/D2/T34] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-09-26 09:24:53,063 [P8380/D2/T39] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username Raphael from IP address ::1
+ 2016-09-26 09:28:50,327 [P8380/D2/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-09-26 09:28:50,329 [P8380/D2/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 2ms)
+ 2016-09-26 09:29:22,923 [P8380/D2/T18] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username Bruce Wein from IP address ::1
+ 2016-09-26 09:30:17,114 [P8380/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.HealthCheck.HealthCheck
+ 2016-09-26 09:30:17,123 [P8380/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.HealthCheck.HealthCheck, found 0 (took 8ms)
+ 2016-09-26 09:34:09,322 [P8380/D2/T32] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username Bruce Wein from IP address ::1
+ 2016-09-26 09:43:21,271 [P8380/D2/T33] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: neli.chakarova@yahoo.com, IP Address: ::1

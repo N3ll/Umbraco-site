@@ -1,0 +1,12 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.Message>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "Master.cshtml";
+}
+
+<div class="container-fluid">
+	 <div id="main" class="wrapper clearfix">
+		@Umbraco.RenderMacro("listMsgs")
+		@Html.Action("Index","MessageSurface")
+	</div>
+</div>
